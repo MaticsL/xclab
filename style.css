@@ -1,0 +1,34 @@
+.title {
+	text-align: center;
+}
+
+.board {
+	text-align: center;
+}
+
+.board .doing,.planing,.finished {
+	cursor: hand;
+}
+.board .finished:hover {
+	background-color: blue;
+}
+
+.board .doing:hover {
+	background-color: blue;
+}
+
+.board .planing:hover {
+	color: white;
+	background-color: blue;
+}
+
+.finished {
+	color: green;
+}
+
+.doing {
+	color: brown;
+}
+
+.planing {
+}
